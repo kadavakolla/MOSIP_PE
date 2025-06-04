@@ -1,0 +1,14 @@
+{
+    "@context": "https://www.w3.org/ns/did/v1",
+    "id": "did:web:localhost:3000",
+    "verificationMethod": [
+      {
+        "id": "did:web:localhost:3000#key-1",
+        "type": "RsaVerificationKey2018",
+        "controller": "did:web:localhost:3000",
+        "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQE...IDAQAB\n-----END PUBLIC KEY-----"
+      }
+    ],
+    "assertionMethod": ["did:web:localhost:3000#key-1"]
+  }
+  

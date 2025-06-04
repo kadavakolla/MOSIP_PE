@@ -1,0 +1,18 @@
+{
+  "@context": ["https://www.w3.org/2018/credentials/v1"],
+  "id": "http://localhost:3000/credentials/123",
+  "type": ["VerifiableCredential"],
+  "issuer": "did:web:localhost:3000",
+  "issuanceDate": "2023-11-10T10:00:00Z",
+  "credentialSubject": {
+    "id": "did:web:subject.localhost:3000",
+    "name": "Alice"
+  },
+  "proof": {
+    "type": "RsaSignature2018",
+    "created": "2023-11-10T10:45:00Z",
+    "verificationMethod": "did:web:localhost:3000#key-1",
+    "proofPurpose": "assertionMethod",
+    "jws": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.FAKE.SIGNATURE"
+  }
+}

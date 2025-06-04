@@ -1,0 +1,11 @@
+authtoken: 2mbq4Pvz54IO066WwM907T9uAOK_4TRA9Z8ZbCtTUiAXRknqv
+
+tunnels:
+  frontend:
+    addr: 5173
+    proto: http
+    domain: precious-firmly-bobcat.ngrok-free.app
+
+  backend:
+    addr: 5000
+    proto: http

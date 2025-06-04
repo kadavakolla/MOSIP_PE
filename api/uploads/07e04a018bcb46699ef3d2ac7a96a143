@@ -1,0 +1,26 @@
+{
+  "@context": [
+    "https://www.w3.org/2018/credentials/v1"
+  ],
+  "id": "http://example.com/credentials/123",
+  "type": [
+    "VerifiableCredential"
+  ],
+  "issuer": "did:key:z6MkiS9nQpZ7MzA4iA6RQgCyKzpjc7hgp5GM2pMoYmP1YxqV",
+  "issuanceDate": "2023-11-10T10:00:00Z",
+  "credentialSubject": {
+    "id": "did:key:z6MkiS9nQpZ7MzA4iA6RQgCyKzpjc7hgp5GM2pMoYmP1YxqV",
+    "name": "Alice",
+    "degree": {
+      "type": "BachelorDegree",
+      "name": "Bachelor of Science in Computer Science"
+    }
+  },
+  "proof": {
+    "type": "Ed25519Signature2018",
+    "created": "2023-11-10T10:45:00Z",
+    "verificationMethod": "did:key:z6MkiS9nQpZ7MzA4iA6RQgCyKzpjc7hgp5GM2pMoYmP1YxqV#z6MkiS9nQpZ7MzA4iA6RQgCyKzpjc7hgp5GM2pMoYmP1YxqV",
+    "proofPurpose": "assertionMethod",
+    "jws": "eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9..w6rU_cZTjkQbCC-EXAMPLEDUMMY"
+  }
+}

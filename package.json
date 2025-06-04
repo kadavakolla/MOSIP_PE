@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "did-resolver": "^4.1.0",
+    "verification-sdk": "^0.2.26",
+    "web-did-resolver": "^2.0.30"
+  }
+}
